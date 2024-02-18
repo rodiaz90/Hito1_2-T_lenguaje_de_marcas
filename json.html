@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hito 1 - 2º trimestre LM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="img/2874647.webp">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <!-- Video de Fondo -->
+  <video autoplay muted loop id="video-fondo">
+    <source src="img/fondo.mp4" type="video/mp4">
+  </video>
+  <div class="contenido">
+
+      <!--NAVEGADOR-->
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <section class="offcanvas offcanvas-start bg-light" id="menuLateral" tabindex="-1">
+                <div class="offcanvas-header" data-bs-theme="light">
+                </div>
+                <div id="menuLateral"
+                    class="ollapse navbar-collapse offcanvas-body d-flex flex-column justify-content-between px-0">
+                    <ul class="navbar-nav justify-content-evenly">
+
+                        <li class="nav-item p-3 py-md-1"><a href="index.html" class="nav-link active">MOME</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="xml.html" class="nav-link active">XML</a>
+                        <li class="nav-item p-3 py-md-1"><a href="json.html" class="nav-link active">JSON</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="contacto.html" class="nav-link active">CONTACTO</a>
+                        <li class="nav-item p-3 py-md-1">
+                            <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
+                                CATEGORIAS
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#Historia">Historia</a></li>
+                              <li><a class="dropdown-item" href="#normas de uso">Normas del Uso</a></li>
+                              <li><a class="dropdown-item" href="#sintaxis">Sintaxis</a></li>
+                              <li><a class="dropdown-item" href="#aplicaciones empresariales">Ámbito Empresarial</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-3 py-md-1"><a href="#aplicaciones empresariales" class="nav-link active">ÚLTIMO POST</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="#iconos-redes-sociales" class="nav-link active">SIGUENOS EN REDES SOCIALES</a>
+                        </li>
+                    </ul>
+                    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                      <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-linkedin"></i>
+                      </a>
+                      <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                      <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-envelope"></i>
+                      </a>
+                    </div>
+                  </div>
+            </section>
+        </div>
+    </nav>
+    
+    <!-- Articulos -->
+   
+    <section class="articulos justify-content-md-center"id="Historia">
+      <div class="card">
+        <div class="card-header">
+          <H1>JSON</H1>
+        </div>
+        <ul class="list-group list-group-flush">
+          <h2>
+              <div>
+                <h3>HISTORIA</h3>
+              </div>
+              <p>JSON, acrónimo de JavaScript Object Notation, fue creado por Douglas Crockford. Crockford es un programador y escritor estadounidense con una amplia experiencia en el campo de la informática y la programación. JSON fue introducido por él en la década de 2000 como un formato ligero y fácil de leer para el intercambio de datos entre servidores y clientes web.</p>
+
+              <p>El motivo principal detrás de la creación de JSON fue la necesidad de contar con un formato de datos sencillo y eficiente que pudiera ser fácilmente interpretado por los navegadores web y otros sistemas de software. En ese momento, se buscaba una alternativa más liviana y legible que XML, que aunque era muy utilizado, presentaba cierta complejidad y peso innecesario para determinados escenarios, como la transferencia de datos en aplicaciones web.</p>
+              
+              <p>JSON se diseñó específicamente para ser fácil de entender tanto para los humanos como para las máquinas, utilizando una estructura basada en pares clave-valor y adoptando la sintaxis de los objetos en JavaScript. Su simplicidad y versatilidad lo convirtieron en un estándar de facto para el intercambio de datos en aplicaciones web, y su adopción se ha extendido a diferentes campos de la programación y el desarrollo de software.</p>
+              
+          </h2>
+          <a href="https://aws.amazon.com/es/compare/the-difference-between-json-xml/" target="_blank" rel="noopener noreferrer">
+          </a>
+        </ul>
+      </div>
+    </section>
+
+    <section class="articulos justify-content-md-center"id="normas de uso">
+      <div class="card">
+        <ul class="list-group list-group-flush">
+          <h2>
+           <div>
+                <h3>NORMAS DE USO</h3>
+              </div>
+              <p>JSON sigue algunas reglas y normas de uso. Aquí se presentan las normas clave para trabajar con él.</p>
+
+              <p>JSON se basa en la sintaxis de objetos y arrays de JavaScript. Los datos se representan en pares clave-valor dentro de objetos y listas de valores separados por comas dentro de arrays.</p>
+              
+              <p>Las claves en los objetos JSON deben estar entre comillas dobles.
+              Las cadenas de texto también deben ir entre comillas dobles.</p>
+              
+              <p>JSON admite valores como strings, numbers, objetos, arrays, booleanos y null.</p>
+              
+              <p>Los datos en JSON se representan como texto en formato UTF-8.
+              La estructura de los datos se mantiene mediante la anidación y la indentación, aunque esto último no es obligatorio.</p>
+              
+              <p>Se utilizan comas para separar elementos dentro de arrays o propiedades dentro de objetos.
+              Dos puntos separan claves de valores en pares clave-valor.</p>
+              
+              <p>Se deben evitar referencias circulares al definir objetos JSON para evitar problemas en la serialización y deserialización.</p> 
+              
+              <p>Estas normas aseguran que los datos en formato JSON sean legibles, interoperables y fáciles de procesar tanto por humanos como por máquinas. Es esencial seguir estas reglas para garantizar la validez y coherencia en el uso de JSON en aplicaciones y sistemas que intercambian datos.</p> 
+  	      </h2>
+         <a href="https://aws.amazon.com/es/compare/the-difference-between-json-xml/" target="_blank" rel="noopener noreferrer">
+         </a>
+        </ul>
+      </div>
+</section>
+
+<section class="articulos justify-content-md-center"id="sintaxis">
+  <div class="card">
+    <ul class="list-group list-group-flush">
+      <h2>
+       <div>
+            <h3>SINTAXIS</h3>
+          </div>
+          <p>En JSON, los datos se organizan en objetos y arrays. Un objeto JSON es un conjunto no ordenado de pares clave-valor, donde cada clave se asocia a un valor específico. Las claves se definen como strings entre comillas dobles, seguidas de dos puntos y el valor correspondiente. Los objetos pueden anidarse, permitiendo estructuras complejas.</p>
+
+          <p>Por otro lado, los arrays en JSON son listas ordenadas de valores, también pueden contener objetos o arrays como elementos. Los elementos se separan por comas y todo el array se encierra entre corchetes.</p> 
+      </h2>
+     <a href="https://aws.amazon.com/es/compare/the-difference-between-json-xml/" target="_blank" rel="noopener noreferrer">
+     </a>
+    </ul>
+  </div>
+</section>
+
+<section class="articulos justify-content-md-center"id="aplicaciones empresariales">
+  <div class="card">
+    <ul class="list-group list-group-flush">
+      <h2>
+       <div>
+            <h3>APLICAIONES EMPRESARIALES</h3>
+          </div>
+          <p>En el ámbito empresarial, JSON desempeña un papel crucial debido a su versatilidad y facilidad de uso para la transmisión y almacenamiento de datos. Una de las aplicaciones más comunes es en el intercambio de información entre sistemas, donde JSON se utiliza como formato estándar para estructurar datos y facilitar la comunicación entre aplicaciones empresariales.</p>
+
+          <p>En el desarrollo de aplicaciones web empresariales, JSON se utiliza para transmitir datos entre el servidor y el cliente de manera eficiente. Este formato es esencial para la implementación de API (Interfaces de Programación de Aplicaciones), permitiendo a diferentes sistemas y servicios intercambiar información de manera coherente y comprensible.</p>
+          
+          <p>En el ámbito del almacenamiento de configuraciones y preferencias, JSON se emplea para organizar y gestionar datos estructurados de manera legible. Esto es especialmente útil en entornos empresariales donde se manejan grandes cantidades de información, y JSON proporciona una forma ordenada y escalable de gestionar dichos datos.</p>
+          
+          <p>Además, en el contexto de aplicaciones móviles empresariales, JSON se utiliza para recibir datos del servidor, como listas de productos, actualizaciones de inventario o información de clientes. Su simplicidad y capacidad para representar información compleja de manera clara lo convierten en una elección popular para la comunicación de datos en tiempo real en el ámbito empresarial.</p>
+          
+          <p>En resumen, JSON se ha convertido en un estándar para la representación y transmisión de datos en el ámbito empresarial, siendo fundamental para la interoperabilidad y el intercambio de información entre diversas aplicaciones y sistemas.</p>
+      </h2>
+     <a href="https://aws.amazon.com/es/compare/the-difference-between-json-xml/" target="_blank" rel="noopener noreferrer">
+     </a>
+    </ul>
+  </div>
+</section>
+
+<!-- Redes -->
+
+    <section class="articulos justify-content-md-center">
+      <div class="card" id="Redes">
+        
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center" id="iconos-redes-sociales">
+          <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter" style="color: white;"></i>
+          </a>
+          <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github" style="color: white;"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-linkedin" style="color: white;"></i>
+          </a>
+          <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram" style="color: white;"></i>
+          </a>
+          <a href="mailto:rodrigo.diazdones.23@campusfp.es" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-envelope" style="color: white;"></i>
+          </a>
+        </div>
+        
+      </div>
+    </section>
+    
+    <!-- Footer -->
+  </div>
+  <footer class="text-center mt-5">
+      <p>&copy; 2024 Proyecto XML y JSON Creado por Rodrigo Díaz Dones</p>
+  </footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>

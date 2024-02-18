@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hito 1 - 2º trimestre LM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="img/2874647.webp">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <!-- Video de Fondo -->
+  <video autoplay muted loop id="video-fondo">
+    <source src="img/fondo.mp4" type="video/mp4">
+  </video>
+  <div class="contenido">
+
+      <!--NAVEGADOR-->
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <section class="offcanvas offcanvas-start bg-light" id="menuLateral" tabindex="-1">
+                <div class="offcanvas-header" data-bs-theme="light">
+                </div>
+                <div id="menuLateral"
+                    class="ollapse navbar-collapse offcanvas-body d-flex flex-column justify-content-between px-0">
+                    <ul class="navbar-nav justify-content-evenly">
+
+                        <li class="nav-item p-3 py-md-1"><a href="index.html" class="nav-link active">MOME</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="xml.html" class="nav-link active">XML</a>
+                        <li class="nav-item p-3 py-md-1"><a href="json.html" class="nav-link active">JSON</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="contacto.html" class="nav-link active">CONTACTO</a>
+                        <li class="nav-item p-3 py-md-1">
+                            <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
+                                CATEGORIAS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#Historia">Historia</a></li>
+                                <li><a class="dropdown-item" href="#normas de uso">Normas del Uso</a></li>
+                                <li><a class="dropdown-item" href="#sintaxis">Sintaxis</a></li>
+                                <li><a class="dropdown-item" href="#aplicaciones empresariales">Ámbito Empresarial</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-3 py-md-1"><a href="#sintaxis" class="nav-link active">ÚLTIMO POST</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="#iconos-redes-sociales" class="nav-link active">SIGUENOS EN REDES SOCIALES</a>
+                        </li>
+                    </ul>
+                    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                      <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-linkedin"></i>
+                      </a>
+                      <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                      <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-envelope"></i>
+                      </a>
+                    </div>
+                  </div>
+            </section>
+        </div>
+    </nav>
+    
+    <!-- Articulo -->
+   
+    <section class="articulos justify-content-md-center"id="Historia">
+      <div class="card">
+        <div class="card-header">
+          <H1>XML</H1>
+        </div>
+        <ul class="list-group list-group-flush">
+          <h2>
+              <div>
+                <h3>HISTORIA</h3>
+              </div>
+              <p>XML (Extensible Markup Language) fue desarrollado en la década de 1990 por un equipo de ingenieros liderado por Tim Bray, Jean Paoli y Michael Sperberg-McQueen. Estos expertos formaban parte del World Wide Web Consortium (W3C) y del grupo de trabajo encargado de lenguajes de marcado.</p>
+
+<p>El propósito principal detrás de la creación de XML era proporcionar un formato de texto legible tanto para humanos como para máquinas, que permitiera la representación estructurada de datos de manera flexible. A diferencia de HTML, que estaba diseñado para la presentación de información en la web, XML se ideó como un estándar para el intercambio de datos entre sistemas heterogéneos.</p>
+
+<p>La capacidad de definir etiquetas personalizadas y estructurar datos de manera autodescriptiva hizo que XML fuera ideal para compartir información entre aplicaciones y plataformas diversas. Su flexibilidad y simplicidad en la representación de datos lo convirtieron en un estándar clave en el intercambio de información en la web y en diversas aplicaciones.</p>
+              
+          </h2>
+          <a href="https://aws.amazon.com/es/compare/the-difference-between-json-xml/" target="_blank" rel="noopener noreferrer">
+          </a>
+        </ul>
+      </div>
+    </section>
+
+    <section class="articulos justify-content-md-center"id="normas de uso">
+      <div class="card">
+        <ul class="list-group list-group-flush">
+          <h2>
+           <div>
+                <h3>NORMAS DE USO</h3>
+              </div>
+              <p>XML sigue normas específicas para garantizar la correcta estructuración de documentos. A continuación, se detallan algunas normas clave.</p>
+
+              <p>Todo documento XML debe tener un elemento raíz único que englobe a todos los demás elementos.</p>
+              
+              <p>Las etiquetas deben abrirse y cerrarse en el orden correcto y no deben superponerse.</p>
+              
+              <p>Los atributos deben ir entre comillas (simples o dobles) para mantener la consistencia.</p>
+              
+              <p>XML distingue entre mayúsculas y minúsculas, por lo que los nombres de etiquetas y atributos deben escribirse de manera coherente.</p>
+              
+              <p>Un documento XML debe cumplir con todas las reglas sintácticas para considerarse bien formado.</p>
+              
+              <p>Estas son solo algunas de las normas básicas de sintaxis y estructura de XML. Es esencial seguir estas reglas para asegurar la coherencia y la interpretación correcta de los datos.</p>  
+  	      </h2>
+         <a href="https://aws.amazon.com/es/compare/the-difference-between-json-xml/" target="_blank" rel="noopener noreferrer">
+         </a>
+        </ul>
+      </div>
+</section>
+
+<section class="articulos justify-content-md-center"id="sintaxis">
+  <div class="card">
+    <ul class="list-group list-group-flush">
+      <h2>
+       <div>
+            <h3>SINTAXIS</h3>
+          </div>
+          <p>La sintaxis de XML, o Extensible Markup Language, se basa en el uso de marcas y etiquetas para estructurar la información de manera jerárquica. En XML, los documentos están compuestos por elementos, cada uno rodeado por etiquetas de apertura y cierre, y pueden contener atributos que proporcionan información adicional sobre esos elementos.</p>
+
+          <p>Por ejemplo, un elemento simple podría ser representado así:</p>
+          <img class="img-fluid" src="img/ejemplo1.png" alt="ejemplo">
+          <p>En este caso, "persona" es el elemento principal, mientras que "nombre" y "edad" son elementos secundarios. Las etiquetas de apertura y cierre definen el inicio y el fin de cada elemento. Además, los atributos pueden ser utilizados para proporcionar detalles adicionales.</p>
+          <img class="img-fluid" src="img/ejemplo2.png" alt="ejemplo">
+          <p>XML es especialmente útil en el intercambio de datos entre sistemas heterogéneos, como bases de datos, aplicaciones web y servicios. Su flexibilidad permite definir estructuras de datos personalizadas, y su sintaxis clara facilita la interpretación y procesamiento de la información. Al cumplir con las reglas de sintaxis de XML, los documentos se consideran bien formados y válidos, asegurando una correcta interpretación por parte de las aplicaciones que los utilizan.</p>
+      </h2>
+     <a href="https://aws.amazon.com/es/compare/the-difference-between-json-xml/" target="_blank" rel="noopener noreferrer">
+     </a>
+    </ul>
+  </div>
+</section>
+
+<section class="articulos justify-content-md-center"id="aplicaciones empresariales">
+  <div class="card">
+    <ul class="list-group list-group-flush">
+      <h2>
+       <div>
+            <h3>APLICAIONES EMPRESARIALES</h3>
+          </div>
+          <p>En el ámbito empresarial, XML desempeña un papel crucial al ofrecer un formato estandarizado para el intercambio de datos entre sistemas heterogéneos. Este lenguaje de marcado extensible se utiliza en una variedad de aplicaciones, contribuyendo a mejorar la eficiencia y la interoperabilidad en el entorno empresarial.</p>
+
+          <p>Una de las aplicaciones más destacadas de XML en el ámbito empresarial es el intercambio de datos. XML proporciona una estructura flexible y legible que facilita la transferencia de información entre diferentes plataformas y aplicaciones. Esta capacidad de intercambio de datos se utiliza en sistemas de gestión empresarial (ERP) para garantizar una comunicación eficiente entre módulos y departamentos, mejorando la coherencia y la precisión de la información.</p>
+          
+          <p>Además, XML se emplea en el desarrollo de estándares de comunicación empresarial. Al definir esquemas XML específicos para determinados sectores o procesos, las empresas pueden establecer normas que facilitan la integración de sus sistemas con los de socios comerciales y proveedores. Esto promueve la interoperabilidad y simplifica la colaboración en cadenas de suministro y redes comerciales.</p>
+          
+          <p>Otra aplicación destacada es la configuración y personalización de aplicaciones empresariales. XML se utiliza para describir la configuración de software y aplicaciones, permitiendo a las empresas ajustar y personalizar sus soluciones según sus necesidades específicas. Esto proporciona flexibilidad y agilidad en la adaptación de sistemas a cambios internos o requisitos del mercado.</p>
+          
+          <p>En resumen, XML se ha convertido en una herramienta fundamental en el ámbito empresarial, facilitando el intercambio de datos, estableciendo estándares de comunicación y permitiendo la configuración personalizada de aplicaciones, contribuyendo así a la eficiencia y la integración en el entorno empresarial.</p>
+      </h2>
+     <a href="https://aws.amazon.com/es/compare/the-difference-between-json-xml/" target="_blank" rel="noopener noreferrer">
+     </a>
+    </ul>
+  </div>
+</section>
+
+
+
+<!-- Iconos de RRSS -->
+
+    <section class="articulos justify-content-md-center">
+      <div class="card" id="Redes">
+        
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center" id="iconos-redes-sociales">
+          <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter" style="color: white;"></i>
+          </a>
+          <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github" style="color: white;"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-linkedin" style="color: white;"></i>
+          </a>
+          <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram" style="color: white;"></i>
+          </a>
+          <a href="mailto:rodrigo.diazdones.23@campusfp.es" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-envelope" style="color: white;"></i>
+          </a>
+        </div>
+        
+      </div>
+    </section>
+    
+    <!-- Footer -->
+  </div>
+  <footer class="text-center mt-5">
+      <p>&copy; 2024 Proyecto XML y JSON Creado por Rodrigo Díaz Dones</p>
+  </footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>

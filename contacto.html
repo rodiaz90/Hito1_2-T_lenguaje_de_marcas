@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hito 1 - 2º trimestre LM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="img/2874647.webp">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!-- Video de Fondo -->
+  <video autoplay muted loop id="video-fondo">
+    <source src="img/contacto.mp4" type="video/mp4">
+  </video>
+  <div class="contenido">
+
+<!--NAVEGADOR-->
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <section class="offcanvas offcanvas-start bg-light" id="menuLateral" tabindex="-1">
+                <div class="offcanvas-header" data-bs-theme="light"></div>
+                <div class="collapse navbar-collapse offcanvas-body d-flex flex-column justify-content-between px-0">
+                    <ul class="navbar-nav justify-content-evenly">
+                        <li class="nav-item p-3 py-md-1"><a href="index.html" class="nav-link active">MOME</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="xml.html" class="nav-link active">XML</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="json.html" class="nav-link active">JSON</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="contacto.html" class="nav-link active">CONTACTO</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="index.html" class="nav-link active">ÚLTIMO POST</a></li>
+                        <li class="nav-item p-3 py-md-1"><a href="#iconos-redes-sociales" class="nav-link active">SIGUENOS EN REDES SOCIALES</a></li>
+                    </ul>
+                    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                        <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </nav>
+    
+<!-- Formulario-->
+    <form>
+      <fieldset class = "marcos ">
+          <legend class="text">Contacta con Nosotros</legend>
+          
+          <br>
+          <div>
+              <label class="text">Nombre</label>
+              <input type="text"class = esquinas>
+          </div>
+          <br>
+          <div>
+              <label class="text">Apellido:</label>
+              <input type="text"class = esquinas>
+          </div>
+          <br>
+          <div>
+            <label  class="text">Contacto:</label>
+            <input type="text"class = esquinas>
+        </div>
+        <br>
+          <legend class="text">¿Dudas?</legend>
+          <label class="text">No dudes en plantar tus preguntas ¡adelante!</label>
+          <br>
+          <br>
+          <textarea rows = "5" cols = "50" class = esquinas></textarea>
+      
+          <legend class="text">Tipo de Proyectos</legend>
+          <label  class="text">Seleccione el tipo de proyecto que desea desarrollar</label>
+          <label ></label>
+          <input type="checkbox"> <label class="text">Página Web</label>
+          <input type="checkbox"> <label class="text">Aplicaciones Móviles</label>
+          <input type="checkbox"> <label class="text">Aplicaciones de Escritorio</label>
+          <input type="checkbox"> <label class="text">Aplicaciones Empresariales</label>
+          <input type="checkbox"> <label class="text">Aplicaciones en la Nube</label>
+          <input type="checkbox"> <label class="text">Otros</label>
+      
+      <input type="submit" value="Enviar" class="interruptores">
+      <input type="submit" value="Reestablecer" class="interruptores">
+      </div>     
+  </form>
+
+<!-- Redes Sociales -->  
+
+<section class="articulos justify-content-md-center" >
+  <div class="card" id="Redes">
+    
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center" id="iconos-redes-sociales">
+      <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter" style="color: white;"></i>
+      </a>
+      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github" style="color: white;"></i>
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin" style="color: white;"></i>
+      </a>
+      <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram" style="color: white;"></i>
+      </a>
+      <a href="mailto:rodrigo.diazdones.23@campusfp.es" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope" style="color: white;"></i>
+      </a>
+    </div>
+    
+  </div>
+</section>
+    
+<!-- Footer -->
+  </div>
+  <footer class="text-center mt-5">
+      <p>&copy; 2024 Proyecto XML y JSON Creado por Rodrigo Díaz Dones</p>
+  </footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
